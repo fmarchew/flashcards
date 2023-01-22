@@ -1,0 +1,45 @@
+.cardsContainer{
+    height: 100%;
+    width: 1150px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 50px;
+    align-items: flex-start;
+}
+
+.card{
+    cursor: pointer;
+    height: 200px;
+    width: 350px;
+    background-color: #edeada;
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 8px 24px -16px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px -16px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px -16px rgba(66, 68, 90, 1);
+    h3{
+        margin-top: 10px;
+        text-align: center;
+    }
+    p{
+        margin: 10px 20px;
+    }
+}
+.singleCardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    height: min-content;
+}
+.deleteCard{
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: #3260a8;
+    max-width: min-content;
+}

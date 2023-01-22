@@ -1,0 +1,20 @@
+.addNewCard{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    textarea{
+        height: 200px;
+        width: 350px;
+    }
+    button{
+        cursor: pointer;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        border: none;
+        background-color: #3260a8;
+        max-width: min-content;
+    }
+}
