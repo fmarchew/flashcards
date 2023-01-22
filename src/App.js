@@ -1,7 +1,6 @@
 import { Link, Route, Routes } from "react-router-dom";
 import AddNewCard from "./components/AddNewCard";
 import Cards from "./components/Cards";
-import Home from "./components/Home";
 import './App.scss';
 
 function App() {

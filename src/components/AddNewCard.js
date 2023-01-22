@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { supabase } from '../config/supabase';
 import './AddNewCard.scss';
 
